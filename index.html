@@ -52,7 +52,6 @@
 
 </head>
 <body>
-
   <!--================ Header Menu Area start =================-->
   <header class="header_area">
     <div class="main_menu">
@@ -80,6 +79,7 @@
               <li class="nav-item"><a class="nav-link" href="#donate" >Donate</a></li>
               <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
               <li class="nav-item"><a class="nav-link" href="#email">Contact</a></li>
+              <li class="nav-item" onclick="change_lang()"><a class="nav-link" href="#" data-translate="lang">Language</a></li>
             </ul>
           </div>
         </div>
@@ -93,17 +93,12 @@
     <div class="hero-wrapper">
       <div class="hero-left">
         <!-- <h1 class="hero-title">Live the True Quechua Traditions</h1> -->
-        <h1 class="hero-title">What is Quechua Experience?</h1>
-        <p>Quechua Experiences are activities designed and led by inspiring Quechua families.
-          They go beyond typical tourism by immersing guests in true Quechua family traditions.
-          It’s an opportunity for anyone to learn about their culture, traditions, or expertise without barriers.</p>
-        <!-- <p>Stay with an Alpaca breeder family in Peru, know their life style and learn about their cultural traditions.</p> -->
-        <!-- <p>My family and I live at 4,100 m.a.s.l. <img src="img/icon/achievement.png" alt="Quechua Experience Peru" > in the Andes of Peru. There are more than 200 thousand families like ours in South America <img src="img/icon/south-america.png" alt="Quechua Experience Peru" >. We belong to the Inca culture <img src="img/icon/inca.png" alt="Quechua Experience Peru" > and speak Quechua as our native language.</p>
-        <p>For centuries, our lifestyle has been based on breeding alpacas<img src="img/icon/alpaca.png" alt="Quechua Experience Peru" >and llamas, as well as cultivating potatoes<img src="img/icon/potatoe.png" alt="Quechua Experience Peru" >. We would truly love to host travelers <img src="img/icon/tourist-woman.png" alt="Quechua Experience Peru" ><img src="img/icon/tourist-man.png" alt="Quechua Experience Peru" > from all over the world and share our <img src="img/icon/zampona.png" alt="Quechua Experience Peru" > <img src="img/icon/flute.png" alt="Quechua Experience Peru" > traditions.</p>
-        <p>As an increasing number of travelers looking for unique and authentic experiences of local traditions, in full respect of the environment, we have developed Alpaca Experience, a project connecting families of Alpaca breeders offering their houses online with travelers who can find and book sustainable destinations all over Peru.</p>
-        <p>We are Quechua experience and we would like to invite you <img src="img/icon/vip.png" alt="Quechua Experience Peru" > to be part of our true traditions and make a positive impact on the world. <img src="img/icon/green-earth.png" alt="Quechua Experience Peru" ></p> -->
+        <h1 class="hero-title" data-translate="hero-title"></h1>
+        <p data-translate="hero-title-content"></p>
+
         <div class="d-sm-flex flex-wrap">
-          <a class="button button-hero button-shadow" href="#tradition">Read More</a>
+          <a class="button button-hero button-shadow" href="#tradition">
+            <div data-translate="read-more"></div></a>
           <a class="hero-banner__video" href="https://www.youtube.com/watch?v=jAYC3BaVVR4">Watch Video</a>
         </div>
         <ul class="hero-info d-none d-lg-block">
@@ -916,5 +911,6 @@ QuechuaExperience Copyright &copy;<script>document.write(new Date().getFullYear(
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/lang.js" charset="utf-8"></script>
 </body>
 </html>
