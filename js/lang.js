@@ -20,6 +20,54 @@ var dictionary = {
             'es': 'Leer mas',
             'en': 'Read more',
         },
+        'watch-video':{
+            'es': 'Ver video',
+            'en': 'Watch video',
+        },
+        'mil-families':{
+            'es': '+120mil familias',
+            'en': '+120K families',
+        },
+        'inca-traditions':{
+            'es': 'Tradiciones Inca',
+            'en': 'Inca traditions',
+        },
+        'live-culture':{
+            'es': 'Cultura Viva',
+            'en': 'Live Culture',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'south-america':{
+            'es': 'America del Sur',
+            'en': 'South America',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
+        'four-countries':{
+            'es': '+4 paises',
+            'en': '+4 countries',
+        },
 };
 
 var langs = ['es', 'en'];
