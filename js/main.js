@@ -1,16 +1,16 @@
 $(function() {
   "use strict";
 
-  var nav_offset_top = $('header').height() + 50; 
+  var nav_offset_top = $('header').height() + 50;
     /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
-	//* Navbar Fixed  
+	//* Navbar Fixed
     function navbarFixed(){
-        if ( $('.header_area').length ){ 
+        if ( $('.header_area').length ){
             $(window).scroll(function() {
-                var scroll = $(window).scrollTop();   
+                var scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top ) {
                     $(".header_area").addClass("navbar_fixed");
                 } else {
@@ -25,7 +25,7 @@ $(function() {
 
 
 
-  //------- mailchimp --------//  
+  //------- mailchimp --------//
 	function mailChimp() {
 		$('#mc_embed_signup').find('form').ajaxChimp();
 	}
@@ -49,14 +49,14 @@ $(function() {
 	-------------------------------------------------------------------------------*/
     if ($('.featured-carousel').length) {
         $('.featured-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
-            items: 1,
+            items: 2,
             nav: true,
             dots: false,
             responsiveClass: true,
             slideSpeed: 300,
-            paginationSpeed: 500,
+            paginationSpeed: 1000,
             navText : ["<div class='left-arrow'><i class='ti-angle-left'></i></div>","<div class='right-arrow'><i class='ti-angle-right'></i></div>"],
             responsive: {
                 768: {
@@ -76,20 +76,19 @@ $(function() {
 	-------------------------------------------------------------------------------*/
     if ($('.hero-carousel').length) {
         $('.hero-carousel').owlCarousel({
-            loop: false,
+            loop: true,
+            autoplay:800,
             margin: 30,
             items: 1,
             nav: false,
             dots: true,
             responsiveClass: true,
             slideSpeed: 300,
-            paginationSpeed: 500
+            paginationSpeed: 1000
         })
     }
 
 
 
-  
+
 });
-
-
