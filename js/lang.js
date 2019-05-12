@@ -36,13 +36,13 @@ var dictionary = {
             'es': 'Cultura Viva',
             'en': 'Live Culture',
         },
-        'four-countries':{
-            'es': '+4 paises',
-            'en': '+4 countries',
-        },
         'south-america':{
-            'es': 'America del Sur',
-            'en': 'South America',
+            'es': '+4 America del Sur',
+            'en': '+4 South America',
+        },
+        'four-countries':{
+            'es': '+4 Paises',
+            'en': '+4 Countries',
         },
         'four-countries':{
             'es': '+4 paises',
