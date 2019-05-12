@@ -8,7 +8,7 @@ var dictionary = {
             'en': 'What is Quechua Experience?',
         },
         'hero-title-content':{
-            'es': 'Quechua Experience son actividades disenadas y lideradas por nuestra familia Quechua. Ofrecemos mucho mas que el tipico turismo, y te invitamos a formar parte de nuestra familia y conocer nuestras tradiciones, es una oportunidad unica de aprendizaje sobre nuestra cultura y estilo de vida',
+            'es': 'Quechua Experience son actividades diseñadas y lideradas por la familia Quechua de Ninfa Quispe. Ofrecemos mucho mas que el tipico turismo, y te invitamos a formar parte de nuestra familia y conocer nuestras tradiciones. Es una oportunidad unica de aprendizaje sobre nuestra cultura y estilo de vida',
             'en': 'Quechua Experiences are activities designed and led by inspiring Quechua families. They go beyond typical tourism by immersing guests in true Quechua family traditions. It’s an opportunity for anyone to learn about their culture, traditions, or expertise without barriers.',
             // <!-- <p>Stay with an Alpaca breeder family in Peru, know their life style and learn about their cultural traditions.</p> -->
             // <!-- <p>My family and I live at 4,100 m.a.s.l. <img src="img/icon/achievement.png" alt="Quechua Experience Peru" > in the Andes of Peru. There are more than 200 thousand families like ours in South America <img src="img/icon/south-america.png" alt="Quechua Experience Peru" >. We belong to the Inca culture <img src="img/icon/inca.png" alt="Quechua Experience Peru" > and speak Quechua as our native language.</p>
@@ -28,29 +28,37 @@ var dictionary = {
             'es': '+120mil familias',
             'en': '+120K families',
         },
-        'inca-traditions':{
-            'es': 'Tradiciones Inca',
+        'true-traditions':{
+            'es': 'Tradicion Inca',
             'en': 'Inca traditions',
         },
         'live-culture':{
             'es': 'Cultura Viva',
             'en': 'Live Culture',
         },
+        'inca-tradition':{
+            'es': 'Tradicion Inca',
+            'en': 'Inca Tradition',
+        },
         'south-america':{
-            'es': '+4 America del Sur',
-            'en': '+4 South America',
-        },
-        'four-countries':{
-            'es': '+4 Paises',
-            'en': '+4 Countries',
+            'es': 'America del Sur',
+            'en': 'South America',
         },
         'four-countries':{
             'es': '+4 paises',
             'en': '+4 countries',
         },
-        'four-countries':{
-            'es': '+4 paises',
-            'en': '+4 countries',
+        'ninfa-family-title':{
+            'es': 'Familia de Ninfa',
+            'en': 'Family of Ninfa',
+        },
+        'ninfa-family-subtitle':{
+            'es': 'Descubre la verdadera cultura Quechua en nuestro Alojamiento',
+            'en': 'Discover the true Quechua Culture staying with us',
+        },
+        'ninfa-family-subsubtitle':{
+            'es': 'Explora nuestra cultura a traves de las alpacas, las papas, Quinua, y muchho mas viviendo con nosotros',
+            'en': 'Explore our culture through alpacas, potatoes, quinoa and so on by staying with us in a beautiful Quechua community',
         },
         'four-countries':{
             'es': '+4 paises',
