@@ -1,7 +1,7 @@
 var dictionary = {
         'lang': {
             'es': 'Change to English',
-            'en': 'Cambiar a Espanol',
+            'en': 'Cambiar a Español',
         },
         'hero-title':{
             'es': 'Que es Quechua Experience?',
@@ -113,7 +113,7 @@ var dictionary = {
         },
 };
 
-var langs = ['es', 'en'];
+var langs = ['en', 'es'];
 var current_lang_index = 0;
 var current_lang = langs[current_lang_index];
 
